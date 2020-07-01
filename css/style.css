@@ -12,7 +12,7 @@ font-family: 'ProximaNova-Black';
 
 body{
     font-family: 'Roboto', sans-serif;
-	background:#000 url("file:///C:/Users/User/Desktop/STAR%20WARS/img/main-bg.jpg")no-repeat right -180% top;
+	background:#000 url("../img/main-bg.jpg")no-repeat right -180% top;
 	background-size: contain;
 	background-attachment: fixed;
  	font-weight: 300;
@@ -108,7 +108,7 @@ transition: transform 0.3s;
     height: 65px;
     right: 0;
     top: 0px;
-    background:  #fff url("file:///C:/Users/User/Desktop/STAR%20WARS/img/play.svg") center no-repeat;
+    background:  #fff url("../img/play.svg") center no-repeat;
     border-radius: 50%
 }
 .button-play:before{
@@ -176,21 +176,21 @@ transition: transform 0.3s;
 	display: inline-block;
 	width: 	12px;
 	height: 12px;
-	background: url("file:///C:/Users/User/Desktop/STAR%20WARS/img/star.svg") no-repeat center;
+	background: url("../img/star.svg") no-repeat center;
 }
 .star-o{
-	background: url("file:///C:/Users/User/Desktop/STAR%20WARS/img/star-o.svg")no-repeat center;
+	background: url("../img/star-o.svg")no-repeat center;
 }
 .slider-nav-left{
 	border: none;
-	background: transparent url("file:///C:/Users/User/Desktop/STAR%20WARS/img/arrow-Left.svg")no-repeat center;
+	background: transparent url("../img/arrow-Left.svg")no-repeat center;
 	width: 32px;
 	height: 32px;
 	margin-right: 15px;
 }
 .slider-nav-right{
 	border: none;
-	background: transparent url("file:///C:/Users/User/Desktop/STAR%20WARS/img/arrow-right.svg")no-repeat center;
+	background: transparent url("../img/arrow-right.svg")no-repeat center;
 	width: 32px;
 	height: 32px;
 }
