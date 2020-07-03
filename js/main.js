@@ -1,4 +1,15 @@
 $(document).ready(function(){
+	const mMenuBtn = $(".m-menu-button");
+	const mMenu= $(".m-menu");
+	const tab= $(".tab");
+
+	mMenuBtn.on("click",function(){
+		mMenu.toggleClass("activ");
+	});
+	tab.on("click",function(){
+		tab.removeClass("activ");
+      $(this).toggleClass("activ");
+   });
    $(".owl-carousel").owlCarousel({
       margin:10,
       nav:true,
