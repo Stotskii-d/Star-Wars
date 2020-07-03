@@ -249,14 +249,12 @@ transition: transform 0.3s;
 	top: 0;
 	bottom: 0;
 	background-color:#000;
-
-	z-index: 0;
 	}
 	.m-menu.activ{
 		display: flex;
 	}
 	.navigation{
-		display: none;
+		display: flex;
 		margin: 0;
 		flex-direction: column;
 		justify-content: center;
